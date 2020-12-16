@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3A7B642589A364009FDF53 /* cash.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3A7B632589A364009FDF53 /* cash.png */; };
 		BFA2E5902585A17900389270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E58F2585A17900389270 /* AppDelegate.swift */; };
 		BFA2E5922585A17900389270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5912585A17900389270 /* SceneDelegate.swift */; };
 		BFA2E5942585A17900389270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5932585A17900389270 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		BFA2E59C2585A17A00389270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA2E59A2585A17A00389270 /* LaunchScreen.storyboard */; };
 		BFA2E5A72585A17A00389270 /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5A62585A17A00389270 /* tipTests.swift */; };
 		BFA2E5B22585A17A00389270 /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5B12585A17A00389270 /* tipUITests.swift */; };
+		BFA2E5C32585CDE200389270 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5C22585CDE200389270 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF3A7B632589A364009FDF53 /* cash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cash.png; path = ../../../Downloads/cash.png; sourceTree = "<group>"; };
 		BFA2E58C2585A17900389270 /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA2E58F2585A17900389270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFA2E5912585A17900389270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		BFA2E5AD2585A17A00389270 /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA2E5B12585A17A00389270 /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		BFA2E5B32585A17A00389270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA2E5C22585CDE200389270 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 				BFA2E5912585A17900389270 /* SceneDelegate.swift */,
 				BFA2E5932585A17900389270 /* ViewController.swift */,
 				BFA2E5952585A17900389270 /* Main.storyboard */,
+				BFA2E5C22585CDE200389270 /* SettingsViewController.swift */,
 				BFA2E5982585A17A00389270 /* Assets.xcassets */,
 				BFA2E59A2585A17A00389270 /* LaunchScreen.storyboard */,
+				BF3A7B632589A364009FDF53 /* cash.png */,
 				BFA2E59D2585A17A00389270 /* Info.plist */,
 			);
 			path = tip;
@@ -233,6 +239,7 @@
 			files = (
 				BFA2E59C2585A17A00389270 /* LaunchScreen.storyboard in Resources */,
 				BFA2E5992585A17A00389270 /* Assets.xcassets in Resources */,
+				BF3A7B642589A364009FDF53 /* cash.png in Resources */,
 				BFA2E5972585A17900389270 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 				BFA2E5942585A17900389270 /* ViewController.swift in Sources */,
 				BFA2E5902585A17900389270 /* AppDelegate.swift in Sources */,
 				BFA2E5922585A17900389270 /* SceneDelegate.swift in Sources */,
+				BFA2E5C32585CDE200389270 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
