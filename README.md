@@ -30,14 +30,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](tip.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Updating the tip and total labels when going back to the main screen after changing the tip percentages in the settings screen was a good challenge.
-Figuring out how to efficiently utilize UserDefaults for preserving app state for 10 minutes and toggling dark mode was another great learning experience.
+- Updating the tip and total labels when going back to the main screen after changing the tip percentages in the settings screen was a good challenge.
+- Figuring out how to efficiently utilize UserDefaults for preserving app state for 10 minutes and toggling dark mode was another great learning experience.
 
 ## License
 
